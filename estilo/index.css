@@ -1,0 +1,38 @@
+.frmprincipal {
+    
+    border: solid cadetblue;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+    height: 600;
+    margin-top: 0px;
+    border-radius: 20px;
+    
+}
+
+.frmpesquisa {
+  
+    border: solid cadetblue;
+    height: 100px;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 2%;
+    width: 200px%;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+
+.fontpag {
+    
+color: cadetblue;
+    
+}
+
+.txtPesquisa {
+    
+    border: solid cadetblue;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+

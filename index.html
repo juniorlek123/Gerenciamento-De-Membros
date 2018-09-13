@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Gerenciamento de Membros</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="estilo/index.css">
+        <link rel="shortcut icon" href="img/icon1.png" type="image/x-png">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="img/icon1.png">Gerenciamento de Membros |</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><img src="img/icon2.png"> Sair</button>
+            </form>
+          </div>
+        </nav>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5 class="fontpag">Pesquisa</h5>
+                    <form class="frmpesquisa">
+                        <label class="fontpag"><strong>Nome</strong></label>
+                        <input type="text" class="txtPesquisa">
+                        <button type="button" class="btn btn-outline-info my-2 my-sm-0"><img src="img/icon4.png">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5 class="fontpag">Opções</h5>
+                    <form class="frmprincipal">
+                        <button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#novoUser"><img src="img/icon3.png"> Cadastrar Novo Usuário</button>
+                        <hr>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="fontpag">Resultado Pesquisa</h5>
+                    <form class="frmprincipal">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Novo Usuário -->
+        <div class="modal fade" id="novoUser" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Cadastrar Novo Membro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="jquery/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
