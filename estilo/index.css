@@ -12,13 +12,16 @@
 .frmpesquisa {
   
     border: solid cadetblue;
-    height: 100px;
+    height: auto;
+    min-height: 100px;
     padding-left: 1%;
     padding-right: 5%;
     padding-top: 2%;
-    width: 200px%;
+    width: 100%;
     margin-top: 10px;
     border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
     
 }
 
@@ -31,8 +34,24 @@ color: cadetblue;
 .txtPesquisa {
     
     border: solid cadetblue;
-    width: 500px;
+    width: 80%;
     border-radius: 5px;
     
 }
 
+#btnBuscar {
+    margin: 10px;
+}
+
+.newmember {
+    width: 100%;
+}
+
+.limitetabela {
+    height: 400px;
+    overflow-y: scroll
+}
+#btnExcMem {
+    margin: 5px;
+
+}
