@@ -82,7 +82,7 @@
                             echo '<td class="fontpag">'. $membro['nome']. '</td>';
                             echo '<td class="fontpag">'. $membro['email']. '</td>';
                             echo '<td class="fontpag">'. $membro['telefone']. '</td>';
-                            echo '<td><button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#editmembro" data-id="'.$membro['id'].'" data-nome="'.$membro['nome'].'" data-email="'.$membro['email'].'"  data-telefone="'.$membro['telefone'].'"> Editar</button><a></a><button class="btn btn-outline-danger my-2 my-sm-0" type="button" id="btnExcMem" data-toggle="modal" data-target="#confexcmembro" data-id="'.$membro['id'].'">Delete</button><a href="tarefasmembro.php?id=' .$membro['id'].'"><button class="btn btn-outline-warning my-2 my-sm-0" type="button">Tarefas</button></a></td>';
+                            echo '<td><button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#editmembro" data-id="'.$membro['id'].'" data-nome="'.$membro['nome'].'" data-email="'.$membro['email'].'"  data-telefone="'.$membro['telefone'].'" data-comentarios="'.$membro['comentarios'].'"> Abrir</button><a></a><button class="btn btn-outline-danger my-2 my-sm-0" type="button" id="btnExcMem" data-toggle="modal" data-target="#confexcmembro" data-id="'.$membro['id'].'">Deletar</button><a href="tarefasmembro.php?id=' .$membro['id'].'"><button class="btn btn-outline-warning my-2 my-sm-0" type="button">Tarefas</button></a></td>';
                             }
                             echo "
                             </tbody>
@@ -113,6 +113,8 @@
                     <input class="txtForm" type="email" name="email" required>
                     <label class="fontpag">Telefone</label>
                     <input class="txtForm" type="tel" name="tel" required>
+                    <label class="fontpag">Comentários</label>
+                    <textarea class="txtTarefa" type="text" name="comentarios" id="txtComentarios"></textarea>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger my-2 my-sm-0" data-dismiss="modal" id="btnContato">Cancelar</button>
                       <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="btnContato">Cadastrar</button>
@@ -140,6 +142,8 @@
                     <input class="txtForm" type="email" name="email" id="txtEmail" required>
                     <label class="fontpag">Telefone</label>
                     <input class="txtForm" type="tel" name="tel" id="txtTel" required>
+                    <label class="fontpag">Comentários</label>
+                    <textarea class="txtTarefa" type="text" name="descriçao" id="txtComentarios"></textarea>
                     <input type="hidden" class="txtId" name="id" id="id">
                     <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger my-2 my-sm-0" data-dismiss="modal" id="btnContato">Cancelar</button>

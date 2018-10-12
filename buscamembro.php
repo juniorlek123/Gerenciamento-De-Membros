@@ -27,7 +27,7 @@ foreach($listaMembros as $membro){
     echo '<td class="fontpag">'. $membro['nome']. '</td>';
     echo '<td class="fontpag">'. $membro['email']. '</td>';
     echo '<td class="fontpag">'. $membro['telefone']. '</td>';
-    echo '<td><button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#editmembro" data-id="'.$membro['id'].'" data-nome="'.$membro['nome'].'" data-email="'.$membro['email'].'"  data-telefone="'.$membro['telefone'].'"> Editar</button><a><button class="btn btn-outline-danger my-2 my-sm-0" type="button" id="btnExcMem" data-toggle="modal" data-target="#confexcmembro" data-id="'.$membro['id'].'">Delete</button><a href="deleteVeiculo.php?id=' .$membro['id'].'" target="_blank"><button class="btn btn-outline-warning my-2 my-sm-0" type="button">Tarefas</button></td>';
+    echo '<td><button class="btn btn-outline-info my-2 my-sm-0" type="button" data-toggle="modal" data-target="#editmembro" data-id="'.$membro['id'].'" data-nome="'.$membro['nome'].'" data-email="'.$membro['email'].'"  data-telefone="'.$membro['telefone'].'" data-comentarios="'.$membro['comentarios'].'"> Abrir</button><a></a><button class="btn btn-outline-danger my-2 my-sm-0" type="button" id="btnExcMem" data-toggle="modal" data-target="#confexcmembro" data-id="'.$membro['id'].'">Deletar</button><a href="tarefasmembro.php?id=' .$membro['id'].'"><button class="btn btn-outline-warning my-2 my-sm-0" type="button">Tarefas</button></a></td>';
 }
 echo "
 </tbody>

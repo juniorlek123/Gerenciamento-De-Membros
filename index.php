@@ -21,7 +21,7 @@
 
 
     ?>
-    <title>ChatBô</title>
+    <title>Gerênciador de Membros</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="estilo/index.css">
     <link rel="shortcut icon" href="img/icon1.png" type="image/x-png">
