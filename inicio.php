@@ -108,11 +108,11 @@
               <div class="modal-body">
                   <form method="POST" action="cadmembro.php">
                     <label class="fontpag">Nome</label>
-                    <input class="txtForm" type="text" name="nome" required>
+                    <input class="txtForm" type="text" name="nome">
                     <label class="fontpag">Email</label>
-                    <input class="txtForm" type="email" name="email" required>
+                    <input class="txtForm" type="email" name="email">
                     <label class="fontpag">Telefone</label>
-                    <input class="txtForm" type="tel" name="tel" required>
+                    <input class="txtForm" type="tel" name="tel">
                     <label class="fontpag">Comentários</label>
                     <textarea class="txtTarefa" type="text" name="comentarios" id="txtComentarios"></textarea>
                     <div class="modal-footer">
@@ -137,11 +137,11 @@
               <div class="modal-body">
                   <form method="POST" action="editmembro.php">
                     <label class="fontpag">Nome</label>
-                    <input class="txtForm" type="text" name="nome" id="txtNome" required>
+                    <input class="txtForm" type="text" name="nome" id="txtNome">
                     <label class="fontpag">Email</label>
-                    <input class="txtForm" type="email" name="email" id="txtEmail" required>
+                    <input class="txtForm" type="email" name="email" id="txtEmail">
                     <label class="fontpag">Telefone</label>
-                    <input class="txtForm" type="tel" name="tel" id="txtTel" required>
+                    <input class="txtForm" type="tel" name="tel" id="txtTel">
                     <label class="fontpag">Comentários</label>
                     <textarea class="txtTarefa" type="text" name="descriçao" id="txtComentarios"></textarea>
                     <input type="hidden" class="txtId" name="id" id="id">

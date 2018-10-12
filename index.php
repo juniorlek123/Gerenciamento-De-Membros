@@ -41,12 +41,12 @@
                     <hr>
                     <div class="fontpag">
                         <label class="fontpag">Usuário</label>
-                        <input class="txtForm" type="text" name="usuario" placeholder="" required="">
+                        <input class="txtForm" type="text" name="usuario" placeholder="">
                     </div>
                     <br>
                     <div class="logar-input">
                         <label class="fontpag">Senha</label>
-                        <input class="txtForm" type="password" name="senha" placeholder="" required="">
+                        <input class="txtForm" type="password" name="senha" placeholder="">
                     </div>
                     <br>
                     <hr>
@@ -90,7 +90,7 @@
               <div class="modal-body">
                   <form method="POST" action="cadmembro.php">
                     <label class="fontpag">Email</label>
-                    <input class="txtForm" type="email" name="email" required>
+                    <input class="txtForm" type="email" name="email">
                     <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger my-2 my-sm-0" data-dismiss="modal" id="btnContato">Cancelar</button>
                       <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="btnContato">Cadastrar</button>

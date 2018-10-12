@@ -118,9 +118,9 @@
               <div class="modal-body">
                   <form method="POST" action="cadtarefa.php">
                     <label class="fontpag">Titulo</label>
-                    <input class="txtForm" type="text" name="titulo" id="txtNome" required>
+                    <input class="txtForm" type="text" name="titulo" id="txtNome">
                     <label class="fontpag">Descrição</label>
-                    <textarea class="txtTarefa" type="text" name="tarefa" required></textarea>
+                    <textarea class="txtTarefa" type="text" name="tarefa"></textarea>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger my-2 my-sm-0" data-dismiss="modal" id="btnContato">Cancelar</button>
                       <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="btnContato">Cadastrar</button>
@@ -143,9 +143,9 @@
               <div class="modal-body">
                   <form method="POST" action="edittarefa.php">
                   <label class="fontpag">Titulo</label>
-                    <input class="txtForm" type="text" name="titulo" id="txtTitulo" required>
+                    <input class="txtForm" type="text" name="titulo" id="txtTitulo">
                     <label class="fontpag">Descrição</label>
-                    <textarea class="txtTarefa" type="text" name="descriçao" id="txtDescriçao" required></textarea>
+                    <textarea class="txtTarefa" type="text" name="descriçao" id="txtDescriçao"></textarea>
                     <input type="hidden" class="txtId" name="id" id="id">
                     <div class="modal-footer">
                     <button type="button" class="btn btn-outline-danger my-2 my-sm-0" data-dismiss="modal" id="btnContato">Cancelar</button>
