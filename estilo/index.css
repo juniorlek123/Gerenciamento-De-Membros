@@ -1,57 +1,36 @@
-.frmprincipal {
+.Logar {
     
     border: solid cadetblue;
+    position: relative;
     padding: 5% 5% 5% 5%;
-    width: 100%;
-    height: 600;
-    margin-top: 0px;
     border-radius: 20px;
-    
-}
-
-.frmpesquisa {
-  
-    border: solid cadetblue;
-    height: auto;
-    min-height: 100px;
-    padding-left: 1%;
-    padding-right: 5%;
-    padding-top: 2%;
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 20px;
-    display: flex;
-    align-items: flex-start;
-    
+    background-color: white;
+   
 }
 
 .fontpag {
     
-color: cadetblue;
-    
+    color: cadetblue;
+        
 }
 
-.txtPesquisa {
-    
-    border: solid cadetblue;
-    width: 80%;
-    border-radius: 5px;
-    
-}
+.txtform {
 
-#btnBuscar {
-    margin: 10px;
-}
-
-.newmember {
     width: 100%;
+    border: solid 1px cadetblue;
+    border-radius: 5px;
+    height: 40px;
+    color: cadetblue;
+    font-size: 18px;
+
 }
 
-.limitetabela {
-    height: 400px;
-    overflow-y: scroll
+#btnEntrar {
+    width: 100%;
+    height: 50px;
 }
-#btnExcMem {
-    margin: 5px;
 
+#btnRecSenha {
+    width: 100%;
+    height: 50px;
 }

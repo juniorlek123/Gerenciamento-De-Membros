@@ -4,7 +4,7 @@
     include('conexao.php');
 
         
-    $iddelete=$_GET['id'];
+    $iddelete=$_POST['id'];
 
     $sql = 'DELETE FROM tbmembros WHERE id = ?';
     $stmtCad = $con->prepare($sql);
