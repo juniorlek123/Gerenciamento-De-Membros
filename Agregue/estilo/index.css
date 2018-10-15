@@ -1,0 +1,161 @@
+/** PAGINA PRINCIPAL **/
+#menu
+{
+    border: solid cadetblue 1px;
+    border-radius: 10px;
+}
+.view1
+{
+    
+    border: solid cadetblue;
+    min-height: 275px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5% 5% 5% 5%;  
+}
+.view2 
+{
+    border: solid cadetblue;
+    min-height: 275px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;   
+}
+.view3 
+{
+    border: solid cadetblue;
+    min-height: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5% 5% 5% 5%;
+}
+.view4
+{
+    border: solid cadetblue 1px;
+    min-height: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f8f9fa !important;
+}
+.view5
+{
+    border: solid cadetblue 1px;
+    bottom: 20px;
+    min-height: 10px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #f8f9fa !important;
+}
+#carouselExampleControls 
+{
+    border-radius: 20px;    
+}
+#slide
+{
+    border-radius: 20px;
+}
+.rodape 
+{ 
+    background-color: #f8f9fa !important; 
+}
+.lblText
+{
+    color: cadetblue; 
+}
+#lblTitulo
+{
+    color: cadetblue; 
+}
+
+.bemvindo
+{
+    color: cadetblue;
+}
+/**MODAL DE LOGIN DO CLIENTE**/
+.logincliente
+{ 
+    width: 100%;
+    border: solid 1px cadetblue;
+    color: cadetblue;  
+}
+#btnLogin
+{ 
+    width: 100px; 
+}
+#modallogin
+{
+    border-radius: 5px;
+    border: solid cadetblue;
+}
+/**MODAL DE CONTATO**/
+.contato 
+{
+    width: 100%;
+    border: solid 1px cadetblue;
+    color: cadetblue;
+}
+#btnContato
+{
+    width: 100px;
+}
+#modalcontato
+{
+    border-radius: 5px;
+    border: solid cadetblue;
+}
+.msg 
+{ 
+    height: 130px;
+    width: 100%;
+    resize: none;
+    color: cadetblue;
+    border: solid 1px cadetblue;
+}
+/**MODAL DE CHAT**/
+.chat
+{
+    width: 100%;
+    border: solid 1px cadetblue;
+    color: cadetblue;
+}
+#btnChat
+{  
+    width: 100px;
+}
+#modalcontato
+{
+    border-radius: 5px;
+    border: solid cadetblue;
+}
+.msg 
+{ 
+    height: 130px;
+    width: 100%;
+    resize: none;
+    color: cadetblue;
+}
+/** MODAL SOBRE NÓS **/
+#modalsobrenos 
+{
+    border-radius: 5px;
+    border: solid cadetblue;
+}
+/**MODAL DE SERVIÇOS**/
+#cardserv
+{
+    min-height: 420PX;
+}
+#modalnossosserv
+{
+    border-radius: 5px;
+    border: solid cadetblue;
+}
+#comentariosfb {
+    width: 100%;
+}
